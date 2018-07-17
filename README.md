@@ -2,10 +2,10 @@
 
 Grab your account specific checkout code from the Checkout code tab from Settings page. Your code should look like the code below:
 
-<script type="text/javascript" data="olapic-checkout">
+{code}<script type="text/javascript" data="olapic-checkout">
 //==== Olapic Require: DO NOT CHANGE
 var olapicRequireCheckoutScript=(function(oHead){var onError=function(){throw new URIError('Olapic checkout script could not be loaded');};return function(olapicScriptSrc,onLoadCallback){var oScript=document.createElement('script');oScript.type='text\/javascript';oScript.src=olapicScriptSrc;oScript.async=true;oScript.onerror=onError;if(onLoadCallback){if(oScript.addEventListener){oScript.addEventListener('load',onLoadCallback,false);}else if(oScript.readyState){oScript.onreadystatechange=function(){if(!this.readyState||this.readyState==='loaded'||this.readyState==='complete'){onLoadCallback();}};}else{oScript.attachEvent('load',onLoadCallback);}}
-oHead.appendChild(oScript);};})(document.head||document.getElementsByTagName('head')[0]);
+oHead.appendChild(oScript);};})(document.head||document.getElementsByTagName('head')[0]);{code}
 
 // ==== Checkout Code:
 olapicRequireCheckoutScript('//photorankstatics-a.akamaihd.net/static/frontend/checkout/olapic.checkout.helper.js', function(){
