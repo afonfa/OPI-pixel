@@ -1,4 +1,4 @@
-# OPI-pixel
+# Example checkout instructions
 
 1. Grab your account specific checkout code from the Checkout code tab from Settings page. Your code should look like the code below:
 
